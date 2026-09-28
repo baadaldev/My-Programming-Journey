@@ -3,7 +3,11 @@
 *.class
 
 # Editor and temporary runner files
-.vscode/
+.vscode/*
+!.vscode/
+!.vscode/cpp codes/
+!.vscode/cpp codes/DSA/
+!.vscode/cpp codes/DSA/star.cpp
 tempCodeRunnerFile.c
 
 # Preserve the former nested repository metadata outside the main index
