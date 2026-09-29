@@ -1,8 +1,14 @@
 #include<iostream>
 using namespace std;
 int main (){
-    int arr[20]={1,2,3,4,2,2,3,4,3,4,3,4,4};
-      for(int i=0;i<20;i++){
+    int arr[5];
+    int n;
+    cout<<"enter the length of array:";
+    cin>>n;
+  for(int i=0;i<n;i++){
+    cin>>arr[i];
+  }
+      for(int i=0;i<n;i++){
         cout<<arr[i]<<" ";
       }
 
