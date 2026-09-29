@@ -1,12 +1,12 @@
 #include<iostream>
 using namespace std;
-void changea(int a){
-    a=20;
-    cout<<a<<endl;
-
+void changea(int *ptr){
+    *ptr=20;
+    cout<<*ptr<<endl;
+//pass by reference using pointer
 }
 int main(){
    int a=10;
-   changea(a);
+   changea(&a);
     return 0;
 }
