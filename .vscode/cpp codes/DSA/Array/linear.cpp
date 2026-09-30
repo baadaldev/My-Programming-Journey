@@ -11,12 +11,12 @@ int main(){
         if(key==arr[i]){
             cout<<"key found in  "<<arr[i] <<"index"<<endl;
             count =count+1;
-            break;
+            return 0;
 
         }
     }
-    if(count==0){
+   
     cout<<"key is not found"<<endl;
-    }
+    
     return 0;
 }
