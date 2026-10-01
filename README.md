@@ -26,13 +26,23 @@ Programming/
 │
 ├── 📁 C/
 │   ├── 📁 01-Basics-and-Fundamentals/       # Variables, Data Types, If-Else, Switch, Loops, Operators
-│   ├── 📁 02-Functions-and-Recursion/       # Functions, Recursion, Factorial
+│   ├── 📁 02-Functions-and-Recursion/       # Functions, Recursion, GCD & Number Theory:
+│   │   ├── 📄 euclidean_gcd.c               # Euclidean GCD algorithm & simulation
+│   │   ├── 📄 fibonacci.c                   # Recursive, Iterative & Memoized Fibonacci
+│   │   └── 📄 factorial.c                   # Recursive Factorial calculations
 │   ├── 📁 03-Arrays-and-Strings/            # 1D/2D Arrays, String operations, Palindrome
 │   ├── 📁 04-Pointers-and-Structures/       # Pointers, Pointer Arithmetic, Structs, Student Records
 │   ├── 📁 05-Data-Structures/
 │   │   ├── 📁 Linked-List/                  # Singly Linked List (Insertion, Deletion, Middle element)
 │   │   └── 📁 Binary-Search-Tree/           # BST (Creation, Search, Insertion, Deletion, Lab performance)
-│   ├── 📁 06-Algorithms/                    # Linear Search, Occurrences, Search variations
+│   ├── 📁 06-Algorithms/                    # Complete Sorting & Searching Suite:
+│   │   ├── 📄 binary_search.c               # Iterative & Recursive Binary Search
+│   │   ├── 📄 bubble_sort.c                 # Optimized Bubble Sort with early termination
+│   │   ├── 📄 selection_sort.c              # Selection Sort with step-by-step pass tracing
+│   │   ├── 📄 insertion_sort.c              # Insertion Sort with element shifting
+│   │   ├── 📄 merge_sort.c                  # Divide & Conquer Merge Sort
+│   │   ├── 📄 quick_sort.c                  # Lomuto Partition Quick Sort
+│   │   └── 📄 linearsearch.c                # Linear Search variants
 │   ├── 📁 07-Problem-Solving/               # Practice problems, Beecrowd solutions
 │   │   └── 📁 BeeCrowd/                     # Problem 1067, 1759, 27641
 │   └── 📁 08-Projects/                      # Interactive Console Applications:
