@@ -1,5 +1,5 @@
 # 💻 Programming Portfolio & Codebase
-#This is for my perosal use
+#This is for my perosal use ..
 
 <p align="center">
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
