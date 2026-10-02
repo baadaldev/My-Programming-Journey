@@ -7,8 +7,9 @@ void maxsubarr(int *arr,int n){
             for(int k=start;k<=end;k++){
                 sum+=arr[k];
             }
-            cout<<sum<<endl;
+            cout<<sum<<",";
         }
+        cout<<endl;
     }
 }
 int main(){
