@@ -8,7 +8,8 @@ int linearsearch(int *arr,int n,int key){
     }
     
 }
-return -1;
+ cout<<"Element not found"<<endl;
+ return -1;
 }
 int main(){
    
