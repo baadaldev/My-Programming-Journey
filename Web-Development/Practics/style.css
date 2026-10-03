@@ -14,4 +14,6 @@ p {
     color:white;
     background-color: rgb(194, 166, 166);
     border: 2px solid black;
+    line-height: 1.5;
+    letter-spacing: 30px;
 }
