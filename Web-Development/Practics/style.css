@@ -1,11 +1,17 @@
 h2 {
+    text-align: right;
     color: orange;
+    border: 2px solid black;
+    font-weight: bold;
+    width: 50%;
 }
 button {
     color: white;
     background-color:rgb(34,52,244);
+    border: 2px solid black;
 }
 p {
     color:white;
     background-color: rgb(194, 166, 166);
+    border: 2px solid black;
 }
