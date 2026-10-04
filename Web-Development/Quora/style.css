@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    color : purple;
+}
+h1,h3{
+    text-align: center;
+    color:#b92b27;
+}
