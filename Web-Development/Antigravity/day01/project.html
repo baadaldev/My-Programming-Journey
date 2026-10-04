@@ -1,41 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Md Rakibul Islam | Web Developer</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Profile</h1>
-    <h2>Md Rakibul Islam</h2>
-    <p>I am a web developer and I love to create beautiful and functional websites. I have experience in HTML, CSS, JavaScript, and various web development frameworks. My goal is to continuously improve my skills and contribute to the web development community.</p>   
-    <img src="rakibul.jpeg " width="100" height="100" alt="Rakibul islam pic">
-    <a href="https://www.linkedin.com/in/md-rakibul-islam-a2b136408" width="100" height="100">LinkedIn</a>
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-    </ul>
-    <h2>Tech Article </h2>
-    <p><strong>Web Development Trends</strong> <em> My name is rakibul islam</em> development is a constantly evolving field that requires continuous learning and adaptation.<blockquote> As a web developer, it is essential to stay updated with the latest technologies and best practices. This includes understanding responsive design, optimizing website performance, and ensuring accessibility for all users. Additionally, collaborating with other developers and designers can lead to innovative solutions and improved user experiences. By embracing new tools and frameworks, web developers can create dynamic and engaging websites that meet the needs of modern users.</blockquote></p>
-    <h2>Contact</h2>
-     <form>
-        Name:
-        <input type="text" name="name"><br><br>
+    <div class="container">
+        <!-- Profile Header -->
+        <header class="profile-header">
+            <h1>Profile</h1>
+            <h2>Md Rakibul Islam</h2>
+            <p>I am a web developer and I love to create beautiful and functional websites. I have experience in HTML, CSS, JavaScript, and various web development frameworks. My goal is to continuously improve my skills and contribute to the web development community.</p>   
+            <img src="rakibul.jpeg" alt="Rakibul Islam's profile picture" class="profile-img">
+            <br>
+            <a href="https://www.linkedin.com/in/md-rakibul-islam-a2b136408" target="_blank" class="social-link">Visit LinkedIn Profile</a>
+        </header>
 
-        Email:
-        <input type="email" name="email"><br><br>
+        <main>
+            <!-- Skills Section -->
+            <section class="skills-section">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+            </section>
 
-        Message:
-        <textarea name="message" rows="5" cols="30"></textarea><br><br>
+            <!-- Tech Article Section -->
+            <article class="article-section">
+                <h2>Tech Article</h2>
+                <p><strong>Web Development Trends</strong> &mdash; <em>by Rakibul Islam</em></p>
+                <p>Web development is a constantly evolving field that requires continuous learning and adaptation.</p>
+                <blockquote>
+                    "As a web developer, it is essential to stay updated with the latest technologies and best practices. This includes understanding responsive design, optimizing website performance, and ensuring accessibility for all users."
+                </blockquote>
+            </article>
 
-        <input type="submit" value="Send">
-    </form>
+            <!-- Contact Section -->
+            <section class="contact-section">
+                <h2>Contact Me</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                    </div>
 
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </section>
+        </main>
+    </div>
 </body>
 </html>

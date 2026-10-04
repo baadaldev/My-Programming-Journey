@@ -1,26 +1,118 @@
+/* রিসেট ও বেসিক স্টাইল */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: #f8fafc;
+    color: darkslategray;
+    line-height: 1.6;
+    padding: 30px 15px;
+}
+
+/* পুরো পেজকে সুন্দরভাবে মাঝে রাখার জন্য কন্টেইনার */
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    color: #1e293b;
+    margin-bottom: 5px;
+}
+
 h2 {
-    color:darkorchid;
+    color: darkorchid;
     font-style: italic;
     font-size: 1.5em;
-    font-family: 'Courier New', Courier, monospace;
+    margin-top: 25px;
+    margin-bottom: 12px;
 }
+
+p {
+    font-size: 1.05em;
+    margin-bottom: 15px;
+}
+
+.profile-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%; /* ছবি গোল করার জন্য */
+    object-fit: cover;
+    margin: 15px 0 10px 0;
+    border: 3px solid darkorchid;
+}
+
+.social-link {
+    display: inline-block;
+    color: darkorchid;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
+
 ul {
     list-style-type: square;
-    margin-left: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
 }
-p {
-    color: darkslategray;
-    font-size: 1.2em;
-    line-height: 1.5;
-    font-family: Arial, sans-serif;
+
+li {
+    margin-bottom: 6px;
 }
+
 blockquote {
     border-left: 4px solid darkorchid;
-    padding-left: 10px;
-    margin-left: 20px;
+    padding: 10px 15px;
+    margin: 15px 0;
+    background-color: #fdf4ff;
     font-style: italic;
     color: dimgray;
+    border-radius: 0 8px 8px 0;
 }
-li {
+
+/* ফর্ম স্টাইলিং */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
     margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 1em;
+}
+
+.submit-btn {
+    background-color: darkorchid;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.submit-btn:hover {
+    background-color: #8b1da8;
 }
