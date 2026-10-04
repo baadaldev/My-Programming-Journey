@@ -171,3 +171,7 @@ Open any `.html` file directly in any modern web browser (Google Chrome, Firefox
 
 ## 📜 License
 This repository is open-source and available for educational and reference purposes.
+
+### 🎯 Next Milestones
+- [ ] Advanced System Design and High-Availability Architectures
+- [ ] Distributed Consensus Protocols and Raft
