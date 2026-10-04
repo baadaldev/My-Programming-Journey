@@ -1,8 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "courier new";    
 }
-h3{
-    color : purple;
+h1, h3{
+    color : #b92b27;
 }
+
