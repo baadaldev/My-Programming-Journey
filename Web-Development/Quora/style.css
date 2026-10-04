@@ -4,6 +4,11 @@
 h1, h3{
     color : #b92b27;
 }
+
 .upvote{
     color : #b92b27;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
