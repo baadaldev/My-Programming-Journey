@@ -6,21 +6,3 @@
 h3{
     color : purple;
 }
-h1,h3{
-    text-align: center;
-}
-h1{
-    font-size: 3rem;
-    margin-top: 1rem;
-}
-#jee-syllabus{
-    color: red;
-}
-p{
-    font-size: 1.5rem;
-    margin: 1rem;
-}
-h2{
-    text-align: center;
-    color: green;
-}
