@@ -33,3 +33,10 @@ div > input {
     padding: 0.5rem;
     margin: 0.5rem;
 }
+input[type="submit"] {
+    color : #b92b27;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
