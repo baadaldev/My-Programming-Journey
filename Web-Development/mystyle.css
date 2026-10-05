@@ -24,3 +24,11 @@ input[type="text"]:checked + label {
     border: 2px solid purple;
     background-color: lightyellow;
 }
+p::first-letter {
+    font-size: 200%;
+    color: darkred;
+}
+P::selection {
+    background-color: lightgreen;
+    color: darkblue;
+}
