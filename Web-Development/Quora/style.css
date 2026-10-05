@@ -12,3 +12,7 @@ h1, h3{
     padding: 0.5rem;
     margin: 0.5rem;
 }
+p a {
+    color: #1b74e4;
+    text-decoration: none;
+}

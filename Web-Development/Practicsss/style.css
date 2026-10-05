@@ -4,3 +4,7 @@
 h1 {
     color: #1b74e4;
 }
+p a {
+    color: #1b74e4;
+    text-decoration: none;
+}
