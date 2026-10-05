@@ -6,3 +6,12 @@ p:hover {
   color: blue;
   background-color: yellow;
 }
+h3:hover {
+  color: green;
+  background-color: lightgray;
+  text-decoration: underline;
+}
+p:active{
+    color: white;
+    background-color: black;
+}
