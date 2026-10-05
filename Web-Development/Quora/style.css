@@ -26,3 +26,10 @@ p + h3 {
     padding: 0.5rem;
     margin: 0.5rem;
 }
+div > input {
+    color : #b92b27;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
