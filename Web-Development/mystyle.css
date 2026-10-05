@@ -14,4 +14,13 @@ h3:hover {
 p:active{
     color: white;
     background-color: black;
+    font-weight: bold;
+}
+p:checked {
+    color: orange;
+    background-color: lightblue;
+}
+input[type="text"]:checked + label {
+    border: 2px solid purple;
+    background-color: lightyellow;
 }
