@@ -5,7 +5,7 @@ int rakib(int x, int y)
 }
 int main (){
 
-int sum=rakib(10,20);
+int sum= rakib(10,20);
 printf("%d",sum);
 
 
