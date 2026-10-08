@@ -16,6 +16,16 @@
 
 # Python cache and environments
 __pycache__/
+!/__pycache__/
+/__pycache__/*
+!/__pycache__/chatgpt/
+/__pycache__/chatgpt/*
+!/__pycache__/chatgpt/**/
+!/__pycache__/chatgpt/**/*.c
+!/__pycache__/chatgpt/**/*.cc
+!/__pycache__/chatgpt/**/*.cpp
+!/__pycache__/chatgpt/**/*.h
+!/__pycache__/chatgpt/**/*.hpp
 *.py[cod]
 *$py.class
 *.env
