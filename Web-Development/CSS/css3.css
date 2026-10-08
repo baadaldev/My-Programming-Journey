@@ -2,4 +2,14 @@ div {
     height: 200px;
     width: 500px;
     background-color: lightblue;
+    border: 2px solid black;
+    border-width: 5px;
+    border-color:black;
+}
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-bottom: 2px solid black;
+    border-width: 5px;
 }
