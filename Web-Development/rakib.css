@@ -1,7 +1,4 @@
-p {
-    height: 200px;
-    width:100px;
-    background-color: rgba(255,0,0 alpha 0.3);
-    text-size: 2 px;
-    font-color: blue;
+p{
+    color: blue;
+    background-color: red;
 }
