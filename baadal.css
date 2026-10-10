@@ -5,7 +5,11 @@
     text-decoration: underline;
     text-decoration: none;
     line-height: 1.5;
+     font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 2px;
 }
+
 h1{
     color:aqua;
     background-color: darkgrey;
